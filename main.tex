@@ -1,0 +1,149 @@
+\documentclass{ExpressiveResume}
+\usepackage{amsmath}
+\usepackage{comment}
+\begin{document}
+
+\resumeheader[
+    firstname=Vijay Murari,
+    middleinitial=,
+    lastname=Tiyyala,
+    email=mleng.nlp@gmail.com,
+    phone=+12405711678,
+    linkedin=vijaymuraritiyyala,
+    website=imvijay23.github.io,
+    state=Baltimore, MD,
+]
+\section{Education}
+\education{Johns Hopkins University, \textcolor{gray}{\small Baltimore}}{Master's in Computer Science}{Graduated}{Dec 2023}{
+    \noindent Focus: Machine Learning, Data Science, NLP, Databases, Information Retrieval, Statistics 
+}
+
+\education{VR Siddhartha Engineering College, \textcolor{gray}{\small India}}{Bachelor of Technology in Computer Science}{Graduated}{Jun 2021}{
+}
+\vspace{7pt}
+\section{Technical Skills}
+
+\begin{itemize}
+\item Programming Languages: Python, Java, R, C++, C
+\item Frameworks and Libraries: PyTorch, TensorFlow, Keras, Langchain, HuggingFace, Deepspeed, Scikit-learn, MLflow 
+\item Tools and Platforms: Docker, AWS, Azure, GCP, Git, Kubernetes, PowerBI, Airflow, Weights \& Biases
+\item Data Management: SQL, NoSQL, PostgreSQL, Apache Solr, Apache Spark, Hadoop, Elasticsearch
+\item Misc: HTML/CSS, PHP, Linux, Shell Scripting, Distributed Computing, CI/CD
+\end{itemize}
+
+
+\section{Work Experience}
+\experience{\hyperlink{https://www.cs.jhu.edu/~mdredze/}{Johns Hopkins University, \textcolor{gray}{\small Full-Time}}}{NLP Researcher}{Aug 2023}{Present}{
+\achievement{Engineered an empathetic medical chatbot using \textbf{LlaMA3}, boosting response accuracy to \textbf{88.7\%} on a human-annotated test dataset, enhancing patient interaction quality.}
+\achievement{Reduced training time by \textbf{50\%} by leveraging \textbf{PyTorch/SLURM} in a \textbf{multi-GPU} environment for efficient \textbf{distributed} training.}
+\achievement{Leveraged \textbf{Apache Solr Cloud} for indexing and retrieval of \textbf{2.5TB} of textual data, optimizing compute and access times.}
+\achievement{Enhanced model empathy and factuality through \textbf{Direct Preference Optimization (DPO)/RLHF} training.}
+\achievement{Facilitated seamless model deployment to \textbf{AWS} using \textbf{Docker}, ensuring scalable and reliable access.}
+}
+\experience{\hyperlink{https://www.clsp.jhu.edu/}{Center for Language and Speech Processing, \textcolor{gray}{\small Full-Time}}}{NLP Research Intern}{Jun 2023}{Sep 2023}{
+\achievement{Led \textbf{RAG} chatbot development \& integration with \textbf{Apache Solr Cloud} to achieve rapid data indexing and retrieval, significantly reducing user search time by \textbf{70\%}, and boosting web traffic by \textbf{40\%}.}
+\achievement{Achieved a \textbf{50\%} reduction in compute costs by using \textbf{PEFT}, \textbf{LoRA}, and \textbf{QLoRA} for efficient \textbf{LlaMA2} training and quantization.}
+\achievement{Optimized document retrieval recall to \textbf{90\%} by integrating re-ranking and chunk summarization, optimizing search result relevance.}
+\achievement{Managed end-to-end chatbot deployment using \textbf{Docker} and \textbf{FastAPI}.}
+}
+
+\experience{\hyperlink{https://www.clsp.jhu.edu/}{Johns Hopkins University, \textcolor{gray}{\small Part-Time}}}{Graduate Research Assistant}{Jan 2023}{Jun 2023}{
+\achievement{Improved machine translation accuracy to \textbf{86\%} for medical terminologies in low-resource languages, improving accessibility.}
+\achievement{Analyzed \textbf{15,000+} compound words, creating a model to improve English translations.}
+\achievement{Designed a \textbf{300+} language translation pipeline, enhancing term reconstruction with compound splitting algorithms.}
+}
+
+\experience{Deloitte USI, \textcolor{gray}{\small Full-Time}}{Business Technology Analyst}{Jul 2021}{Jun 2022}{
+\achievement{Developed stored procedures and scripts for integrating clients' tax data via APIs, and visualized analytical insights in \textbf{PowerBI}.}
+\achievement{Accomplished a \textbf{20\%} reduction in tax data processing time by refining \textbf{SQL} procedures for optimization.}
+\achievement{Boosted client retention by \textbf{30\%} through improved analytics and reporting, by collaborating with various teams in analyzing and deploying data solutions.}
+}
+
+\section{Publications}
+
+\subsection{Published}
+\begin{enumerate}
+    \item \textbf{Kreyòl-MT: Building MT for Latin American, Caribbean, and Colonial African Creole Languages}, \textit{NAACL 2024}.
+\end{enumerate}
+
+\subsection{Under Review}
+\begin{enumerate}
+    \item \textbf{ANALOBENCH: Benchmarking the Identification of Abstract and Long-context Analogies}, submitted to \textit{ACL 2024}.
+\end{enumerate}
+
+
+
+\section{Projects}
+
+\begin{comment}
+    
+
+\project{Python, PyTorch, SciPy, Git}{ECGNet: ECG Signal Processing and Arrhythmia Classification System}{
+\achievement{Developed ECGNet, leveraging deep learning to achieve high accuracy in detecting and classifying arrhythmias from ECG signals.}
+\achievement{Implemented data augmentation and signal processing techniques to enhance model training on diverse ECG datasets.}
+\achievement{Utilized TensorFlow and Keras for model development, focusing on CNNs and RNNs to capture complex signal patterns.}
+\achievement{Prepared comprehensive documentation to support potential FDA approval processes, aligning with SaMD guidelines.}
+}
+\end{comment}
+\begin{comment}
+ \project{Python, PyTorch, HuggingFace, Git, Flask, HTML/CSS, JavaScript}{SAMOYEDS}{
+\achievement{Led the design and development of the SAMOYEDS application, a policy simulation tool using LLMs focusing on public health.}
+\achievement{Implemented a server-client architecture using \textbf{Flask} for efficient data transfer between the \textbf{Mistral 7B} and the front end.}
+\achievement{Developed a dynamic user interface to visualize simulation outcomes, enhancing the tool's usability for policymakers.}
+} 
+
+\project{Python, PyTorch, HuggingFace, Git, Flask, HTML/CSS, JavaScript}{SAMOYEDS}{
+\achievement{Led the creation of SAMOYEDS, an LLM-based public health policy simulation tool, designed to forecast policy impact on public health measures.}
+\achievement{Architected a server-client system with \textbf{Flask}, facilitating real-time interaction between the \textbf{Mistral 7B} LLM and the user interface, enabling complex policy simulation scenarios.}
+\achievement{Engineered an interactive UI that translates LLM simulations into actionable insights, simulating diverse human personas to predict responses to public health policies with a \textbf{76\% accuracy} rate, significantly aiding policymakers in decision-making processes.}
+}
+\end{comment}
+
+\project{Python, PyTorch, HuggingFace, Git, Flask, HTML/CSS, JavaScript}{SAMOYEDS}{
+\achievement{Led the design and development of the SAMOYEDS application, a policy simulation tool using LLMs focusing on public health.}
+\achievement{Enabled SAMOYEDS to simulate diverse human personas, predicting public health policy responses with \textbf{76\% accuracy}, enhancing policymaker decision-making.}
+
+}
+\project{Python, PyTorch, TorchAudio, TorchText, Colab}{Benoit: Better English Noisy Audio Transcripts}{
+\achievement{Developed a grammar-correcting ASR model for non-native English speaker audio.}
+\achievement{Created synthetic dataset by back-translating English sentences from a low-resource language and passing them to Microsoft SAPI5 TTS to create a proxy for non-native English audio.}
+\achievement{Used a GRU-based seq2seq denoising autoencoder on top of a pre-trained Wav2Vec 2.0 (frozen) for grammatically correct ASR.}
+}
+
+
+
+
+
+\project{Python, PyTorch, HuggingFace, Git, HTML/CSS, JavaScript}{ResearchNavigator}{
+\achievement{Created an AI information retrieval system/search engine with an interface for research papers, utilized \textbf{LDA} for clustering, and LLMs to generate summaries.}
+
+}
+
+
+\project{Python, PyTorch, HuggingFace, BeautifulSoup, Git, SLURM}{Code Editing via Natural Language Instructions}{
+%\achievement{Created Codeforces data for problem submissions, preprocessed them into input-output pairs and Instruction-tuned CodeLlama.}
+%\achievement{Enabled \textbf{CodeLlama} to accurately interpret natural language instructions for code editing, enhancing its user interaction.}
+%\achievement{Enabled accurate natural language code editing in \textbf{CodeLlama} by instruction-tuning on code data, enhancing user interaction.}
+%\achievement{Achieved \textbf{37\% accuracy} in natural language code editing with \textbf{CodeLlama} through instruction-tuning on code data, significantly enhancing user interaction.}
+\achievement{Improved code editing by Instruction-tuning \textbf{CodeLlama2}, achieving a \textbf{37\% pass@1 accuracy} in interpreting natural language instructions, significantly streamlining the coding workflow.}
+
+}
+
+\project{Python, PyTorch, NLTK, Git}{Grammar Autocorrected ASR: Enhancing Transcription Accuracy}{
+\achievement{Surpassed over \textbf{93\%} grammatical accuracy in transcriptions from noisy English audio by training NLP auto-correction model.}
+}
+\begin{comment}
+    \project{AI-Driven Market Analysis Tool}{}{
+\achievement{Created an AI-driven tool for market trend analysis, integrating \textbf{NLP} and \textbf{time series forecasting}, which improved prediction accuracy by \textbf{30\%}.}
+}
+\end{comment}
+
+
+\begin{comment}
+ \project{Python, PyTorch, Colab, Git}{ImageClassify-VT: Unsupervised Image Classifier}{
+\achievement{Developed an unsupervised image classifier with DINOv2, achieving 86\% ImageNet accuracy, setting a new benchmark in vision-based ML models.}
+}   
+\end{comment}
+
+
+\end{document}
